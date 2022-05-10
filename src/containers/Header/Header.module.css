@@ -1,0 +1,12 @@
+.grid {
+  display: grid;
+  margin-bottom: 25px;
+  margin-top: 0;
+  padding: 15px;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  background-color: aliceblue;
+  z-index: 1000;
+}

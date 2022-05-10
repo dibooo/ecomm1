@@ -1,0 +1,92 @@
+.links {
+  padding: 5px;
+  color: #ddd;
+}
+
+.links > * {
+  color: #000;
+  display: inline-block;
+  padding: 5px;
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+.perantLinks > * {
+  margin-left: 15px;
+}
+
+.forMobile {
+  display: none;
+}
+
+.perantLinks {
+  display: inline-block;
+}
+
+@media (max-width: 767px) {
+  .perantLinks {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    background-color: #3498db;
+    top: 45px;
+    left: 0px;
+    padding: 10px 0;
+  }
+  .forMobile {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 75px;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+  }
+}
+
+.icon {
+  position: relative;
+}
+.after {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 0, 0, 0.3);
+  position: absolute;
+  top: -4px;
+  right: -1px;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+}
+
+.productsList {
+  background-color: #ddd;
+  position: absolute;
+  top: 105%;
+  right: 1px;
+  width: 275px;
+  min-height: 30px;
+  max-height: 200px;
+  font-size: 20px;
+  overflow-x: auto;
+  border: 1px solid #000;
+  border-radius: 3px;
+  width: 275px;
+  padding: 3px;
+  display: none;
+  /* transition: visibility 3s ease 1s; */
+}
+
+.titleProductInList {
+  display: grid;
+  margin-top: 3px;
+  background-color: #fff;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  grid-gap: 4px;
+}
+
+.titleProductInList :last-child {
+  background-color: rgb(173, 223, 195);
+}

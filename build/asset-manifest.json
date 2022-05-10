@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dibooo/ecomm1/static/css/main.7dddc16a.chunk.css",
+    "main.js": "/dibooo/ecomm1/static/js/main.46a49b9b.chunk.js",
+    "main.js.map": "/dibooo/ecomm1/static/js/main.46a49b9b.chunk.js.map",
+    "runtime-main.js": "/dibooo/ecomm1/static/js/runtime-main.00fd508e.js",
+    "runtime-main.js.map": "/dibooo/ecomm1/static/js/runtime-main.00fd508e.js.map",
+    "static/js/2.aa3df06a.chunk.js": "/dibooo/ecomm1/static/js/2.aa3df06a.chunk.js",
+    "static/js/2.aa3df06a.chunk.js.map": "/dibooo/ecomm1/static/js/2.aa3df06a.chunk.js.map",
+    "static/js/3.80c0f5d7.chunk.js": "/dibooo/ecomm1/static/js/3.80c0f5d7.chunk.js",
+    "static/js/3.80c0f5d7.chunk.js.map": "/dibooo/ecomm1/static/js/3.80c0f5d7.chunk.js.map",
+    "index.html": "/dibooo/ecomm1/index.html",
+    "static/css/main.7dddc16a.chunk.css.map": "/dibooo/ecomm1/static/css/main.7dddc16a.chunk.css.map",
+    "static/js/2.aa3df06a.chunk.js.LICENSE.txt": "/dibooo/ecomm1/static/js/2.aa3df06a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.00fd508e.js",
+    "static/js/2.aa3df06a.chunk.js",
+    "static/css/main.7dddc16a.chunk.css",
+    "static/js/main.46a49b9b.chunk.js"
+  ]
+}

@@ -1,0 +1,32 @@
+.allProducts {
+  display: grid;
+  grid-template-columns: 75%;
+  grid-gap: 1%;
+  margin-top: 15px;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: repeat(3, 31%);
+  grid-template-rows: auto;
+  max-height: 200px;
+  border: 1px solid #000;
+  overflow: hidden;
+}
+
+.image {
+  height: 100%;
+  margin: auto;
+  padding: 10px;
+}
+
+.image img {
+  height: 15%;
+  display: block;
+  text-align: center;
+}
+
+.desc {
+  display: grid;
+  grid-template-columns: auto;
+}
